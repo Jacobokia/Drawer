@@ -15,41 +15,6 @@ class HomeFragment : Fragment() {
 
 
 
-//    override fun onCreateView(
-//        inflater: LayoutInflater,
-//        container: ViewGroup?,
-//        savedInstanceState: Bundle?
-//    ): View {
-////        val homeViewModel =
-////            ViewModelProvider(this).get(HomeViewModel::class.java)
-////
-////        _binding = FragmentHomeBinding.inflate(inflater, container, false)
-////        val root: View = binding.root
-////
-////        val textView: TextView = binding.textHome
-////        homeViewModel.text.observe(viewLifecycleOwner) {
-////            textView.text = it
-//        return inflater.inflate(R.layout.fragment_home, container, false)
-//        }
-//
-//    }
-//
-//    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-//        super.onViewCreated(view, savedInstanceState)
-//        view.findViewById<WebView>(R.id.text_home).apply {
-//            loadUrl("https://www.monitor.co.ug/")
-//            settings.allowContentAccess = true
-//            settings.safeBrowsingEnabled = true
-//            settings.javaScriptEnabled = true
-//            settings.useWideViewPort = true
-//        }
-//    }
-//
-//    override fun onDestroyView() {
-//        super.onDestroyView()
-//
-//    }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
